@@ -1,0 +1,107 @@
+.navbar {
+  background-image: linear-gradient(to right, #A3278F, #E52F50); /* Gradient from Blue to Purple */
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  color: white;
+ }
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  color: white; /* Dark color for the toggler icon */
+}
+
+.navbar-nav .nav-link {
+  color: white; /* Dark color for nav links */
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: black; /* Blue color on hover for nav links */
+  font-size: 20px;
+  opacity: 0.3;
+}
+
+.hero-section .container .schbtn {
+  background-color: #007bff; /* Blue button background */
+  border-color: #007bff; /* Blue button border color */
+}
+
+.hero-section .container .schbtn:hover {
+  background-color: rgb(5, 169, 5); /* Darker blue on hover */
+  border-color: #0056b3;
+  opacity: 0.8;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  background-image: url("img 2.jpg");
+  background-size: cover; /* This property ensures the background image covers the entire container */
+  background-position: center; /* This property centers the background image */
+  image-resolution: 100px;
+  image-rendering: auto;
+  color: #ffffff;
+  padding: 75px 0;
+  text-align: center;
+}
+
+#about p.carInfo {
+  outline: thick ridge pink;
+}
+
+.hero-section .container, .main{
+  background-image: url("button.png");
+  background-size: cover; /* This property ensures the background image covers the entire container */
+  background-position: 50%; 
+  font-weight: bold;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.5rem; 
+}
+
+.section {
+  background-image: linear-gradient(to right, #A3278F, #E52F50); /* Gradient from Blue to Purple */
+  background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    margin: 0px;
+}
+#services img:hover{
+  opacity: 0.5;
+}
+
+.highlightBox {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #A3278F;
+}
+
+#fqa {
+  background-image: linear-gradient(to right, #A3278F, #E52F50); 
+  font-weight: bold;
+  color: white;
+}
+
+#fqa .accordion .accordion-item .accordion-body{
+  background-image: linear-gradient(to right, #A3278F, #E52F50); 
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  background-color: #333; /* Dark background for footer */
+  color: #fff; /* White text color for footer */
+  text-align: center;
+  padding: 10px 0;
+  margin: 0px;
+}
