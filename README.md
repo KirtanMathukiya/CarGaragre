@@ -1,4 +1,6 @@
-# Demo1
-My First git project
+# CarGarage
+My First project on github
 <br> 
 Kirtan Mathukiya
+<br>
+This is an car repair web site.
