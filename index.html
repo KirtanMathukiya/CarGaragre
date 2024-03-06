@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Garage Company</title>
+  <link rel="stylesheet" href="Task2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Car Garage Company Logo"><span class="highlightBox main text-light">Rolling Wheels</span>
+      </a>
+      <!-- Add navigation links here -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="highlightBox nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="highlightBox nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="highlightBox nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="highlightBox nav-link" href="#fqa">FQA</a>
+          </li>
+          <li class="nav-item">
+            <a class="highlightBox nav-link" href="#askUs">Ask Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="highlightBox nav-link" href="#">Help</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-section">
+    <div class="container">
+      <h1 class="highlightBox">Welcome to Rolling Wheels</h1>
+      <p>Your trusted partner for all your car maintenance and repair needs.</p>
+      <p>Your Journey, Our Expertise.</p>
+      <a href="book.html" class="btn btn-primary schbtn">Schedule Appointment</a>
+    </div>
+  </div>
+
+  <section id="services" class="section">
+    <div class="container pt-2">
+      <h2 class="highlightBox main text-center py-2">Our Services</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-sm-12 col-xs-12">
+          <div class="card" style="width: 18rem;">
+            <img src="oil.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title main text-dark text-center">Oil Change</h4>
+              <p class="card-text text-dark">Regular oil changes ensure smooth running of your engine and prolong its lifespan.</p>
+              <a href="#" class="btn btn-primary">Check Rates</a>
+            </div>
+          </div>
+         
+        </div>
+        <div class="col-md-6 col-lg-4 col-sm-12 col-xs-12">
+          <div class="card mt-2" style="width: 18rem;">
+            <img src="img8.jpg" class="card-img-top" width="25%" alt="...">
+            <div class="card-body">
+              <h4 class="card-title main text-dark text-center">Brake Inspection</h4>
+              <p class="card-text  text-dark">We offer thorough brake inspections and repairs to keep you safe on the road.</p>
+              <a href="#" class="btn btn-primary">Check Rates</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12 col-xs-12">
+          <div class="card mt-2" style="width: 18rem;">
+            <img src="img9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title main text-dark text-center">Engine Diagnostics</h4>
+              <p class="card-text text-dark">Our advanced diagnostic tools help identify and fix engine issues efficiently.</p>
+              <a href="#" class="btn btn-primary">Check Rates</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  </section>
+
+  <section id="about" class="section py-3">
+    <div class="container">
+      <h2 class="highlightBox main text-center py-2">About Us</h2>
+      <p class="carInfo main mb-0">Car Garage Company has been serving the community for over a decade, providing top-notch automotive services with a commitment to customer satisfaction. Our team of certified technicians is dedicated to keeping your vehicle in peak condition.</p>
+    </div>
+  </section>
+
+  
+
+  <div id="fqa">
+    <div class="container pt-2">
+      <h2 class="highlightBox main text-center py-2">FQA Section</h2>
+      <div class="accordion pt-2 text-light" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              How often should I change my car's oil?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer: It's generally recommended to change your car's oil every 3,000 to 5,000 miles, but this can vary depending on your car's make and model, as well as your driving habits. Check your owner's manual for specific recommendations.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What are the signs that my brakes need to be replaced?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer: Signs that your brakes may need to be replaced include squeaking or grinding noises when you apply the brakes, a spongy or soft brake pedal, or if your car takes longer to stop than usual. It's important to have your brakes inspected regularly to ensure they're functioning properly.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How often should I rotate my tires?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer: Tire rotation helps ensure even wear and prolongs the life of your tires. It's typically recommended to rotate your tires every 6,000 to 8,000 miles, or as specified in your car's owner's manual. Regular tire rotation can also improve your car's handling and fuel efficiency.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What should I do if my check engine light comes on?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer: If your check engine light comes on, it's important to have your car inspected by a qualified technician as soon as possible. The check engine light can indicate a variety of issues, ranging from minor to serious, so it's best to address the problem promptly to prevent further damage to your car.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+              How can I improve my car's fuel efficiency?
+            </button>
+          </h2>
+          <div id="collapsefive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Answer: To improve your car's fuel efficiency, you can try maintaining a steady speed while driving, avoiding aggressive acceleration and braking, keeping your tires properly inflated, and regularly servicing your car's engine and fuel system. Additionally, using the recommended grade of motor oil and replacing air filters as needed can also help improve fuel economy.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inside the container div, after the FAQ section -->
+  <div id="askUs" class="section pt-3">
+    <div class="container">
+      <h2 class="highlightBox main text-center py-2">Ask Us</h2>
+      <p>Have a question that's not answered here? Feel free to ask us!</p>
+      <form id="askUsForm" class="mt-2">
+        <div class="mb-2">
+          <label for="question" class="form-label">Your Question</label>
+          <textarea class="form-control" id="question" rows="3" required></textarea>
+        </div>
+        <div class="mb-2">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-2">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </form>
+      <div id="askUsConfirmation"></div>
+    </div>
+  </div>
+
+  <div id="contact" class="section pt-2 pb-1 mb-0 text-center bg-dark">
+    <div class="container main mb-0">
+      <h2 class="highlightBox">Contact Us</h2>
+      <p>If you have any questions or need assistance, feel free to contact us at:</p>
+      <p>Email: info@cargaragecompany.com</p>
+      <p>Phone: 123-456-7890</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Car Garage Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="task2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
