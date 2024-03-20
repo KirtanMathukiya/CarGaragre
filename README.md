@@ -1,6 +1,6 @@
 <h1>Rolling Wheels</h1>
-<br> 
-Author - Kirtan Mathukiya
+
+<h3>Author - Kirtan Mathukiya</h3>
 
 <h3>This is an car repair web site.</h3>
 
