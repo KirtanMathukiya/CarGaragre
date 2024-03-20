@@ -1,8 +1,7 @@
-# CarGarage
-My First project on github
+<h1>Rolling Wheels</h1>
 <br> 
-Kirtan Mathukiya
-<br>
-This is an car repair web site.
+Author - Kirtan Mathukiya
+
+<h3>This is an car repair web site.</h3>
 
 [![Site preview](./preview.png)](https://kirtanmathukiya.github.io/CarGaragre/?#)
